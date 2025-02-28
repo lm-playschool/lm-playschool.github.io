@@ -14,7 +14,7 @@ The  Playschool-LM challenge therefore poses the following questions: How can we
 ## Your Task
 All participants in the challenge start with the same base model, which will be the best performing (at the time of the start of the challenge) model in the ~10B parameters class, pre-trained to be able to follow instructions. (This motivates the name of the challenge: whereas the BabyLM challenge is about starting training from scratch with a certain budget, the PlaySchool-LM challenge is about improving a pre-trained model with a certain budget.)
 
-Participants are free to use whatever method or data they see fit to achieve improvements. Evaluation will be on the CLU2 pipeline mentioned above; with a special prize reserved for the highest improvement on the "collaborative language use" dimension. Use of the Playpen is encouraged, but not required. Entries to the competition can be (but do not have to be) pure fine-tunes of the base model; agentive systems that wrap the model in additional code (e.g., for introspection or self-regulation) are also welcome.</p>
+Participants are free to use whatever method or data they see fit to achieve improvements. Evaluation will be on the CLU2 pipeline mentioned above; with a special prize reserved for the highest improvement on the "collaborative language use" dimension. Use of the Playpen is encouraged, but not required. Entries to the competition can be (but do not have to be) pure fine-tunes of the base model; agentive systems that wrap the model in additional code (e.g., for introspection or self-regulation) are also welcome.
 
 # Organizers
 * Raffaella Bernardi (Uni Trento)
