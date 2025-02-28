@@ -9,7 +9,7 @@ $container-max-widths: (
   sm: 540px,
   md: 640px,
   lg: 690px,
-  xl: 720px
+  xl: 900px
 ) !default;
 
 
@@ -84,6 +84,8 @@ $dropdown-link-hover-color:         $white !default;
 $dropdown-link-hover-bg:            $secondary !default;
 
 // Navbar
+
+$nav-color: rgb(219, 16, 140) !important;
 
 // Pagination
 
