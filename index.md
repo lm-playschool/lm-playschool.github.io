@@ -2,6 +2,9 @@
 layout: page
 title: LM Playschool Challenge
 ---
+
+![SHARED TASK LOGO](https://drive.google.com/file/d/1umxPpJn8Xdoicx4iPGeuAHV_mB5-AeQ0/view?usp=drive_link)
+
 ## The Goal
 The PlaySchool-LM challenge  aims at fostering research on training regimes that are best suited for creating agentic conversational language models (ACLMs).  It therefore targets significant advances in the efficient development of collaborative AI systems. We are requesting sponsorship support to develop and run the challenge. 
 
