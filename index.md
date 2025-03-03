@@ -20,11 +20,10 @@ All participants in the challenge start with the same base model, which will be 
 Participants are free to use whatever method or data they see fit to achieve improvements. Evaluation will be on the CLU2 pipeline mentioned above; with a special prize reserved for the highest improvement on the "collaborative language use" dimension. Use of the Playpen is encouraged, but not required. Entries to the competition can be (but do not have to be) pure fine-tunes of the base model; agentive systems that wrap the model in additional code (e.g., for introspection or self-regulation) are also welcome.
 
 # Organizers
-* Raffaella Bernardi (Uni Trento)
-* Raquel Fernández (Uni Amsterdam)
-* Mario Giulianelli (ETH Zurich)
-* Alexander Koller (Saarland Uni)
-* Oliver Lemon (Heriot-Watt Uni)
-* David Schlangen (Uni Potsdam)
-* Alessandro Suglia (Heriot-Watt Uni)
-* ALL THE OTHER NAMES
+* [Raffaella Bernardi](https://scholar.google.com/citations?user=bMavvosAAAAJ&hl=en) (Uni Trento)
+* [Raquel Fernández](https://scholar.google.com/citations?user=XbosWYQAAAAJ&hl=en) (Uni Amsterdam)
+* [Mario Giulianelli](https://scholar.google.de/citations?user=ABZghWYAAAAJ&hl=en) (ETH Zurich)
+* [Alexander Koller](https://scholar.google.com/citations?user=yni3K9wAAAAJ&hl=en) (Saarland Uni)
+* [Oliver Lemon](https://scholar.google.co.uk/citations?user=YYWptO4AAAAJ&hl=en) (Heriot-Watt Uni)
+* [David Schlangen](https://scholar.google.com/citations?user=QoDgwZYAAAAJ&hl=en) (Uni Potsdam)
+* [Alessandro Suglia](https://scholar.google.co.uk/citations?hl=en&user=429MAoUAAAAJ) (Heriot-Watt Uni)
