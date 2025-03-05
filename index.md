@@ -19,6 +19,8 @@ All participants in the challenge start with the same base model, which will be 
 
 Participants are free to use whatever method or data they see fit to achieve improvements. Evaluation will be on the CLU2 pipeline mentioned above; with a special prize reserved for the highest improvement on the "collaborative language use" dimension. Use of the Playpen is encouraged, but not required. Entries to the competition can be (but do not have to be) pure fine-tunes of the base model; agentive systems that wrap the model in additional code (e.g., for introspection or self-regulation) are also welcome.
 
+---
+
 # Organizers
 * [Raffaella Bernardi](https://scholar.google.com/citations?user=bMavvosAAAAJ&hl=en) (Uni Trento)
 * [Raquel Fernández](https://scholar.google.com/citations?user=XbosWYQAAAAJ&hl=en) (Uni Amsterdam)
