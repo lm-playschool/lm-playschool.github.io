@@ -14,7 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: LM Playschool Challenge
-subtitle: A Challenge for advancing LLMs with Interactive Learning
+subtitle: >- 
+  A Challenge for advancing LLMs with Interactive Learning
 email: ""
 #description: >- # this means to ignore newlines until "baseurl:"
 #  A Challenge for advancing LLMs with Interactive Learning
