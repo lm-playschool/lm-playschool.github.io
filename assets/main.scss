@@ -22,9 +22,10 @@ blockquote{
   background-color: rgb(219, 16, 140) !important;
 }
 
-.header-padding{
-  padding-top:10%;
-  padding-bottom:10%
+.header-home{
+  padding-top:65px;
+  text-align: center;
+
 }
 .p-footer{
   margin-top: 1rem;
@@ -40,4 +41,5 @@ blockquote{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height:640px;
 }
