@@ -4,7 +4,7 @@ title: LM Playschool Challenge
 ---
 
 ## A Playschool for LLMs
-> Playschool: an informal type of school for very young children where they learn things by playing [[Collins](https://www.collinsdictionary.com/dictionary/english/playschool)].
+> _Playschool: an informal type of school for very young children where they learn things by playing [[Collins](https://www.collinsdictionary.com/dictionary/english/playschool)]._
 
 The PlaySchool-LM challenge  aims at fostering research on training regimes that are best suited for creating agentic conversational language models (ACLMs).  It therefore targets significant advances in the efficient development of collaborative AI systems.
 

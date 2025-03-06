@@ -8,6 +8,16 @@
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
 @import "bootstrap_customization";
 
+blockquote{
+  font-weight: 500;
+  background-color: #db108c14;
+  font-size: 15px;
+  margin-left: 1%;
+  color: #db108c;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
 .nav-color{
   background-color: rgb(219, 16, 140) !important;
 }
