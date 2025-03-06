@@ -41,8 +41,24 @@ blockquote{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height:640px;
+  height:710px;
 }
 .site-title{
   color: #db108c;
+}
+
+.page-content{
+  margin-top:2%
+}
+
+@media (min-width: 1200px) {
+  .navbar-container {
+    max-width: 95%;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-container {
+    max-width: 690px;
+  }
 }
