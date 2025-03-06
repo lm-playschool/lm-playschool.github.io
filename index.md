@@ -3,9 +3,10 @@ layout: page
 title: LM Playschool Challenge
 ---
 
+## A Playschool for LLMs
+> Playschool: an informal type of school for very young children where they learn things by playing [[Collins](https://www.collinsdictionary.com/dictionary/english/playschool)].
 
-## The Goal
-The PlaySchool-LM challenge  aims at fostering research on training regimes that are best suited for creating agentic conversational language models (ACLMs).  It therefore targets significant advances in the efficient development of collaborative AI systems. 
+The PlaySchool-LM challenge  aims at fostering research on training regimes that are best suited for creating agentic conversational language models (ACLMs).  It therefore targets significant advances in the efficient development of collaborative AI systems.
 
 The challenge builds on the observation that current training is partially ineffective, in that the resulting models lack key collaborative interactional competences that human language users have. 
 
@@ -19,7 +20,7 @@ All participants in the challenge start with the same base model, which will be 
 
 Participants are free to use whatever method or data they see fit to achieve improvements. Evaluation will be on the CLU2 pipeline mentioned above; with a special prize reserved for the highest improvement on the "collaborative language use" dimension. Use of the Playpen is encouraged, but not required. Entries to the competition can be (but do not have to be) pure fine-tunes of the base model; agentive systems that wrap the model in additional code (e.g., for introspection or self-regulation) are also welcome.
 
----
+
 
 # Organizers
 * [Raffaella Bernardi](https://disi.unitn.it/~bernardi/) (University of Trento)
