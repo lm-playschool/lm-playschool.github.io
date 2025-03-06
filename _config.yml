@@ -19,7 +19,8 @@ email: ""
 #description: >- # this means to ignore newlines until "baseurl:"
 #  A Challenge for advancing LLMs with Interactive Learning
 #baseurl: "" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://playschool-star.github.io/lm-play-school/" # the base hostname & protocol for your site, e.g. http://example.com
+timeline_url: "https://playschool-star.github.io/lm-play-school/timeline"
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
