@@ -9,8 +9,7 @@ The challenge builds on the observation that current training is partially ineff
 The Playschool-LM challenge therefore poses the following questions: How can we efficiently improve pre-trained LMs towards modelling a collaborative language understander and user, given a fixed token post-training budget? Specifically, it asks: “What role can structured interaction with a teacher model play in the training process?” 
 ## What we Provide
 
-The challenge organisers provide a setup (the Playpen) for conducting such structured interactions, which offers as learning signal both linguistic feedback from a teacher (clarification requests, corrections) as well as feedback from the (interaction) environment (task success or failure), and which provides some control over the training process to the learner.
-
+The challenge organisers provide a setup (the Playpen) for conducting such structured interactions, which offers as learning signal both linguistic feedback from a teacher (clarification requests, corrections) as well as feedback from the (interaction) environment (task success or failure), and which provides some control over the training process to the learner. (This will be based on the [clembench](https://github.com/clp-research/clembench) environment, with some modifications that will be released soon.)
 The organisers also provide an evaluation pipeline that operationalises the notion of a "collaborative language understander and user (CLU2)" by mixing established reference-based language understanding evaluation datasets (e.g., MMLU) with novel interactional tests, ensuring that both "internal" skills such as reasoning, understanding, as well as "external" skills such as conversational collaboration and multi-turn coherence establishment are tested.
 
 ## Your Task
