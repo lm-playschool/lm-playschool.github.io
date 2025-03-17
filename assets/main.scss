@@ -87,9 +87,9 @@ blockquote{
     text-align: center;
 }
 
-.row:last-child .grid-item {
-    width: 30%;
-}
+//.row:last-child .grid-item {
+//    width: 30%;
+//}
 
 .grid-item img {
     width: 100%;
@@ -116,9 +116,9 @@ blockquote{
         width: 45%;
     }
 
-    .row:last-child .grid-item {
-        width: 45%;
-    }
+    //.row:last-child .grid-item {
+    //    width: 45%;
+    //}
 }
 
 @media (max-width: 480px) {
@@ -126,8 +126,8 @@ blockquote{
         width: 100%;
     }
 
-    .row:last-child .grid-item {
-        width: 100%;
-    }
+    //.row:last-child .grid-item {
+    //    width: 100%;
+    //}
 }
 
