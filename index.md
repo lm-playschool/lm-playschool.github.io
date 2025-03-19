@@ -22,7 +22,7 @@ The organisers also provide an evaluation pipeline that operationalises the noti
 
 All participants start with the same base model, which will be the best performing (at the time of the start of the challenge) model in the ~10B parameters class, pre-trained to be able to follow instructions.
 
-There are no limitations regarding the type of data that is allowed for training models, with the only limitations being put on the amount of data that can be used. This means, approaches that do not make use of interactive approaches during their training at all are perfectly fine. This competition is a unique opportunity to compare interactive, non-interactive and hybrid training regimes on both interactive as well as non-interactive benchmarks (the CLU2 pipeline mentioned above) and highlight their respective strenghts and weaknesses with respect to each other. 
+There are no limitations regarding the type of data that is allowed for training models, with the only limitations being put on the amount of data that can be used. This means, not making use of interactive approaches at all is perfectly fine. This competition is a unique opportunity to compare interactive, non-interactive and hybrid training regimes on both interactive as well as non-interactive benchmarks (the CLU2 pipeline mentioned above) and highlight their respective strenghts and weaknesses with respect to each other. 
 
 Use of the Playpen is encouraged, but not required. Entries to the competition can be (but do not have to be) pure fine-tunes of the base model; agentive systems that wrap the model in additional code (e.g., for introspection or self-regulation) are also welcome.
 
