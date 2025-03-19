@@ -22,7 +22,7 @@ email: ""
 url: "https://lm-playschool.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 timeline_url: "https://lm-playschool.github.io/timeline"
 leaderboard_url: "https://lm-playschool.github.io/leaderboard"
-contacts_url: "https://lm-playschool.github.io/contacts"
+contacts_url: "https://www.listserv.dfn.de/sympa/subscribe/llm-playschool-challenge"
 get_started_url: "https://lm-playschool.github.io/get-started"
 #twitter_username: jekyllrb
 #github_username:  jekyll
