@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: LM Playschool Challenge
-subtitle: "A Challenge for advancing LLMs with Interactive Learning"
+title: The LM-Playschool Challenge
+subtitle: "A Challenge for Improving LLMs Through Learning from Dialogue Game Interaction"
 email: ""
 #description: >- # this means to ignore newlines until "baseurl:"
 #  A Challenge for advancing LLMs with Interactive Learning
