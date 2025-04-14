@@ -137,7 +137,6 @@ blockquote{
 
 // News box
     .news-box {
-      width: 300px;
       height: 300px;
       border: 2px solid #333;
       border-radius: 12px;
@@ -155,21 +154,22 @@ blockquote{
       margin-bottom: 12px;
     }
 
-    .news-item {
-      margin-bottom: 8px;
-      font-size: 14px;
-    }
-
-    .news-link {
-      text-align: right;
+     .news-link {
+      text-align: center;
     }
 
     .news-link a {
-      color: #007BFF;
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
       text-decoration: none;
       font-weight: bold;
+      transition: background-color 0.3s ease;
     }
 
     .news-link a:hover {
-      text-decoration: underline;
+      background-color: #0056b3;
     }
