@@ -97,9 +97,8 @@ blockquote{
     border-radius: 100%;
 }
 
-.grid-item-sponsors img {
-    width: 100%;
-    height: auto;
+.sponsor-img {
+    border-radius: unset !important;
 }
 
 .grid-item a {
