@@ -25,7 +25,8 @@ blockquote{
 .header-home{
   padding-top:65px;
   text-align: center;
-
+  margin-top:50px;
+  margin-bottom:100px;
 }
 .p-footer{
   margin-top: 1rem;
@@ -45,6 +46,7 @@ blockquote{
 }
 .site-title{
   color: #db108c;
+  font-size:4em;
 }
 
 .page-content{
@@ -59,7 +61,7 @@ blockquote{
             justify-content: center;
             gap: 20px;
             max-width: 900px;
-            margin: 0 auto;
+            margin: 30px auto 40px auto;
         }
 
 .row {
@@ -72,17 +74,17 @@ blockquote{
     justify-content: space-between;
 }
 
-.row:last-child {
-    justify-content: center;
+.row {
+    justify-content: space-between;
+}
+
+.last-row {
+   justify-content: center;
 }
 
 .grid-item {
     width: 22%;
     text-align: center;
-}
-
-.row:last-child .grid-item {
-    width: 30%;
 }
 
 .grid-item img {
@@ -109,19 +111,83 @@ blockquote{
     .grid-item {
         width: 45%;
     }
-
-    .row:last-child .grid-item {
-        width: 45%;
-    }
 }
 
 @media (max-width: 480px) {
     .grid-item {
         width: 100%;
     }
+}
 
-    .row:last-child .grid-item {
+.sponsor-grid-item{
+    width: 35%;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .sponsor-grid-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .sponsor-grid-item {
         width: 100%;
     }
+}
+
+.sponsor-grid-item img {
+    width: 330px;
+    height: 180px;
+    object-fit:contain;
+}
+
+.mailing-list-link{
+  color: #fffb00
+}
+
+// News box
+.news-box {
+  height: 300px;
+  border: 2px solid #333;
+  border-radius: 12px;
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+  margin-bottom:50px;
+}
+
+.news-list {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 12px;
+}
+
+ .news-link {
+  text-align: center;
+}
+
+.news-link a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #DB108C;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.news-link a:hover {
+  background-color: #a82575;
+}
+
+.intel-padding{
+  padding-right: 30%;
+  padding-left: 10%;
 }
 

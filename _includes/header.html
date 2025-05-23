@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark nav-color">
   <div class="container">
-    <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">{{ site.shortitle | escape }}</a>
 
     {%- assign page_paths = site.header_pages -%}
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,17 +16,20 @@
           </li>
           {%- endif -%}
         {% endfor -%}
+        <!--- <li class="nav-item">
+          <a class="nav-link" href="{{ site.leaderboard_url }}">Leaderboard</a>
+        </li> --->
         <li class="nav-item">
-          <a class="nav-link" href="{{ site.github.repository_url }}">Leaderboard</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ site.github.repository_url }}">Get Started</a>
+          <a class="nav-link" href="{{ site.get_started_url }}">Get Started</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ site.timeline_url }}">Timeline</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ site.github.repository_url }}">Contacts</a>
+          <a class="nav-link" href="{{ site.faq_url }}">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mailing-list-link" href="{{ site.contacts_url }}">Join Mailing List</a>
         </li>
       </ul>
     </div>

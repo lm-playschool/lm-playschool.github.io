@@ -2,7 +2,7 @@
 layout: default
 ---
 <article>
-  <div class="header-image">
+  <div>
     <header class="header-home">
       <h1 class="site-title">{{ site.title | escape }}</h1>
       <h4>{{ site.subtitle | escape }}</h4>
@@ -10,9 +10,27 @@ layout: default
   </div>
 
   <div class="container page-content">
+    <div class="news-box">
+          <h1>Latest News</h1>
+  <div class="news-list">
+    <ul>
+      <li>
+            <div class="news-item">[2025/04/14] Our paper describing the challenge's environment has been released on arXiv! <a href="http://arxiv.org/abs/2504.08590">Link</a> </div>
+      </li>
+      <li>
+            <div class="news-item">[2025/02/20] Our paper "Triangulating LLM Progress through Benchmarks, Games, and Cognitive Tests" is out on arXiv! <a href="https://arxiv.org/pdf/2502.14359">Link</a> </div>
+      </li>
+    </ul>
+  </div>
+  <div class="news-link">
+    <a href="/news">View all news</a>
+  </div>
+</div>
   <section>
     {{ content }}
   </section>
+    {%- include team.html -%}
+    {%- include sponsors.html -%}
   </div>
 
 </article>
