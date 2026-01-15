@@ -1,33 +1,12 @@
 # A Playschool for LLMs
 
-Despite the great advancements accomplished by the community in both training and post-training methodologies, at the moment models are still lacking a wide range of key collaborative interactional competences that human language users possess, even when provided with much larger amounts of data.
+The LM Playschool Workshop aims to bring together researchers interested in language learning from social interaction in conversational, collaborative, task-oriented, multi-turn environments. Relevant research strands include: (1) language games as a means of evaluating large language models and their ability to use language in interaction; (2) connections between human language acquisition and machine language learning, with a particular focus on the role of social interaction in data-efficient learning; (3) game-based and interactive environments for training large language models.
 
-With the goal of overcoming such limitations of current training regimes, the **LM Playschool Challenge** targets significant advances in the efficient development of collaborative AI systems and promotes research on training regimes that are best suited for creating agentic conversational language models (ACLMs).
-
-
-The **LM Playschool Challenge** therefore poses the following questions:
-* How can we efficiently improve pre-trained LMs towards modelling a collaborative language understander and user, given a fixed token post-training budget? 
-  * More specifically, what role can structured interaction with another agent play in the training process? 
-
-Why a **Playschool**?  
-The focus of the competition are pre-trained (and instruction-tuned) models which, metaphorically are still children when compared to humans but are not newborn babies anymore. Similarly to them, they are therefore ready to join a place (the [**Playschool**](https://www.collinsdictionary.com/dictionary/english/playschool)), where they can engage in structured, interactive activities with others and potentially strengthening their collaborative and general language use capabilities.
-
-## What we Provide
-
-The challenge organisers provide a setup (the Playpen) for conducting such structured interactions --- language games, or "Sprachspiel", in Wittgenstein's terminology---, which offers as learning signal both linguistic feedback from a teacher (clarification requests, corrections) as well as feedback from the (interaction) environment (task success or failure), and which provides some control over the training process to the learner. (This will be based on the [clembench](https://github.com/clp-research/clembench) environment, with some modifications that will be released soon.)  
-
-The organisers also provide an evaluation pipeline that operationalises the notion of a "collaborative language understander and user (CLU2)" by mixing established reference-based language understanding evaluation datasets - many of which inspired by cognitive science literature - (e.g., BBH, MMLU-Pro) with novel interactional tests, ensuring that both "internal" skills such as reasoning, understanding, as well as "external" skills such as conversational collaboration and multi-turn coherence establishment are tested.
-
-## Your Task
-
-All participants start with the same base model, selected within the 8B parameters class, pre-trained to be able to follow instructions.
-
-There are no limitations regarding the type of data that is allowed for training models, with the only limitations being put on the amount of data that can be used. This means, not making use of interactive approaches at all is perfectly fine. This competition is a unique opportunity to compare interactive, non-interactive and hybrid training regimes on both interactive as well as non-interactive benchmarks (the CLU2 pipeline mentioned above) and highlight their respective strenghts and weaknesses with respect to each other. 
-
-Use of the Playpen is encouraged, but not required. Entries to the competition can be (but do not have to be) pure fine-tunes of the base model; agentive systems that wrap the model in additional code (e.g., for introspection or self-regulation) are also welcome.
-
-Prizes are offered to the best-performing models on the provided evaluation pipeline.
+## Shared Task
+The workshop will host a shared task, the LM Playschool Challenge. The shared task focuses on training collaborative, task-oriented language agents through language interaction data. 
+Participants will start from a base large language model in the 8B parameter range and will have to adhere to a strict 100 million token post-training budget. 
+Submitted systems will be evaluated for their ability to generalise to unseen "dialogue games", i.e., goal-oriented tasks governed by multi-turn language interaction, as well as on traditional single-turn NLP benchmarks and cognitive tests. More details [here](https://lm-playschool.github.io/challenge).
 
 ## Contacts
 
-Join the mailing list to get updated regarding the competition, [here](https://www.listserv.dfn.de/sympa/subscribe/llm-playschool-challenge).
+Join the mailing list to get updated regarding the workshop and shared task, [here](https://www.listserv.dfn.de/sympa/subscribe/llm-playschool-challenge).
