@@ -1,3 +1,7 @@
+---
+layout: challenge
+---
+
 # A Playschool for LLMs
 
 Despite the great advancements accomplished by the community in both training and post-training methodologies, at the moment models are still lacking a wide range of key collaborative interactional competences that human language users possess, even when provided with much larger amounts of data.
