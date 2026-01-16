@@ -7,6 +7,8 @@ The workshop will host a shared task, the LM Playschool Challenge. The shared ta
 Participants will start from a base large language model in the 8B parameter range and will have to adhere to a strict 100 million token post-training budget. 
 Submitted systems will be evaluated for their ability to generalise to unseen "dialogue games", i.e., goal-oriented tasks governed by multi-turn language interaction, as well as on traditional single-turn NLP benchmarks and cognitive tests. More details [here](https://lm-playschool.github.io/challenge).
 
+{%- include taboo-sample.html -%}
+
 ## Contacts
 
 Join the mailing list to get updated regarding the workshop and shared task, [here](https://www.listserv.dfn.de/sympa/subscribe/llm-playschool-challenge).
