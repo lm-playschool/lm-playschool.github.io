@@ -4,9 +4,9 @@
 <div class="gm-container">
   <div class="gm-prompts-row">
     <div class="gm-prompt-box">
-      Taboo Rules<br>
-      Target word: <strong><em>ordinary</em><br></strong>
-      Taboos: <strong><em>common, normal, plain</em></strong>
+      Taboo Rules<hr style="border: none; border-top: 1px solid #fff; margin: 8px 0;">
+      Target word: <strong><em id="target-word">ordinary</em></strong><br>
+      Taboo words: <strong><em id="taboo-words">common, normal, plain</em></strong>
     </div>
     <div class="gm-prompt-box">
       Taboo Rules
@@ -24,41 +24,111 @@
     </div>
   </div>
 
-  <div class="dialogue-area">
-    <div class="agent-message agent-a" data-step="2">
-      CLUE: Something that is usual or expected.
-    </div>
-
-    <div class="agent-message agent-b" data-step="3">
-      GUESS: norm
-    </div>
-
-    <div class="agent-message agent-a" data-step="4">
-      CLUE: Not fancy or special.
-    </div>
-
-    <div class="agent-message agent-b" data-step="5">
-      GUESS: ordinary
-    </div>
-
-    <div class="task-result" data-step="6">
-      <div class="checkmark">&#10003;</div>
-      <div class="task-success-text">
-        <div class="task-success">Task Success</div>
-        <div class="task-guesses">(2 Guesses)</div>
-      </div>
-    </div>
+  <div class="dialogue-area" id="dialogue-area">
+    <!-- Dialogue messages will be inserted dynamically -->
   </div>
 </div>
 
 <script>
+  const tabooSamples = [
+    {
+      target: "ordinary",
+      taboos: "common, normal, plain",
+      dialogue: [
+        { speaker: "a", type: "CLUE", text: "Something that is usual or expected." },
+        { speaker: "b", type: "GUESS", text: "norm" },
+        { speaker: "a", type: "CLUE", text: "Not fancy or special." },
+        { speaker: "b", type: "GUESS", text: "ordinary" }
+      ],
+      result: { success: true, guesses: 2 }
+    },
+    {
+      target: "recorder",
+      taboos: "reporter, bookkeeper, archivist",
+      dialogue: [
+        { speaker: "a", type: "CLUE", text: "A device that captures and stores audio for later playback." },
+        { speaker: "b", type: "GUESS", text: "recorder" }
+      ],
+      result: { success: true, guesses: 1 }
+    },
+    {
+      target: "fighter",
+      taboos: "warrior, boxer, defendant",
+      dialogue: [
+        { speaker: "a", type: "CLUE", text: "A person engaged in combat or battle." },
+        { speaker: "b", type: "GUESS", text: "soldier" },
+        { speaker: "a", type: "CLUE", text: "A professional who competes in a sport involving physical confrontation." },
+        { speaker: "b", type: "GUESS", text: "athlete" },
+        { speaker: "a", type: "CLUE", text: "A person who participates in a combat sport, striking with fists." },
+        { speaker: "b", type: "GUESS", text: "boxer" }
+      ],
+      result: { success: false, reason: "Max 3 Guesses" }
+    },
+    {
+      target: "bypass",
+      taboos: "circumvent, ignore, avoid",
+      dialogue: [
+        { speaker: "a", type: "CLUE", text: "A way around something, often by avoiding it." }
+      ],
+      result: { success: false, reason: "Taboo in clue" }
+    }
+  ];
+
+  let currentSampleIndex = 0;
+
+  function buildDialogueHTML(sample) {
+    let html = '';
+    let step = 2;
+
+    sample.dialogue.forEach(msg => {
+      const agentClass = msg.speaker === 'a' ? 'agent-a' : 'agent-b';
+      html += `<div class="agent-message ${agentClass}" data-step="${step}">
+        ${msg.type}: ${msg.text}
+      </div>\n`;
+      step++;
+    });
+
+    // Add result
+    if (sample.result.success) {
+      html += `<div class="task-result" data-step="${step}">
+        <div class="checkmark">&#10003;</div>
+        <div class="task-success-text">
+          <div class="task-success">Success</div>
+          <div class="task-guesses">(${sample.result.guesses} Guess${sample.result.guesses > 1 ? 'es' : ''})</div>
+        </div>
+      </div>`;
+    } else {
+      html += `<div class="task-result task-fail" data-step="${step}">
+        <div class="crossmark">&#10007;</div>
+        <div class="task-fail-text">Fail</div>
+        <div class="task-guesses">(${sample.result.reason})</div>
+      </div>`;
+    }
+
+    return html;
+  }
+
+  function loadSample(sample) {
+    document.getElementById('target-word').textContent = sample.target;
+    document.getElementById('taboo-words').textContent = sample.taboos;
+    document.getElementById('dialogue-area').innerHTML = buildDialogueHTML(sample);
+  }
+
   function runTabooAnimation() {
+    const sample = tabooSamples[currentSampleIndex];
+
+    // First hide everything
+    const allElementsBefore = document.querySelectorAll('[data-step]');
+    allElementsBefore.forEach(el => el.classList.remove('visible'));
+
+    // Load new sample content
+    loadSample(sample);
+
     const allElements = document.querySelectorAll('[data-step]');
     const delayBetweenSteps = 2500;
     const taskSuccessDelay = 1000;
     const pauseBeforeRestart = 4000;
-
-    allElements.forEach(el => el.classList.remove('visible'));
+    const initialDelay = 500;
 
     const stepGroups = {};
     allElements.forEach(el => {
@@ -70,8 +140,8 @@
     const stepNumbers = Object.keys(stepGroups).map(Number).sort((a, b) => a - b);
     const lastStep = stepNumbers[stepNumbers.length - 1];
 
-    let currentTime = 0;
-    stepNumbers.forEach((stepNum, index) => {
+    let currentTime = initialDelay;
+    stepNumbers.forEach((stepNum) => {
       setTimeout(() => {
         stepGroups[stepNum].forEach(el => el.classList.add('visible'));
       }, currentTime);
@@ -82,6 +152,9 @@
         currentTime += delayBetweenSteps;
       }
     });
+
+    // Move to next sample for next iteration
+    currentSampleIndex = (currentSampleIndex + 1) % tabooSamples.length;
 
     const totalTime = currentTime + pauseBeforeRestart;
     setTimeout(runTabooAnimation, totalTime);
