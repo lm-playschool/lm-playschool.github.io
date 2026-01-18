@@ -246,6 +246,14 @@ blockquote{
   display: flex;
   flex-direction: column;
   align-items: center;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.agent-label-box.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .arrow-down {
@@ -255,9 +263,9 @@ blockquote{
 }
 
 .agent-square {
-  padding: 14px 28px;
+  padding: 18px 36px;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -273,6 +281,7 @@ blockquote{
 
 .dialogue-area {
   padding: 15px 0;
+  min-height: 180px;
 }
 
 .agent-message {
@@ -281,6 +290,14 @@ blockquote{
   border-radius: 16px;
   max-width: 75%;
   font-size: 16px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.agent-message.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .agent-a {
@@ -304,17 +321,35 @@ blockquote{
   align-items: center;
   justify-content: flex-end;
   gap: 8px;
-  margin-top: 10px;
+  margin-top: -17px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.task-result.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .checkmark {
-  font-size: 28px;
+  font-size: 36px;
   color: #4caf50;
+}
+
+.task-success-text {
+  text-align: right;
 }
 
 .task-success {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
   color: #666;
+}
+
+.task-guesses {
+  font-weight: normal;
+  font-size: 14px;
+  color: #888;
 }
 
