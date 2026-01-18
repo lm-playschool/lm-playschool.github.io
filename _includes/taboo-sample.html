@@ -5,8 +5,8 @@
   <div class="gm-prompts-row">
     <div class="gm-prompt-box">
       Taboo Rules<br>
-      Target word: <em>ordinary</em><br>
-      Taboo words: <em>common, normal, plain</em>
+      Target word: <strong><em>ordinary</em><br></strong>
+      Taboos: <strong><em>common, normal, plain</em></strong>
     </div>
     <div class="gm-prompt-box">
       Taboo Rules
@@ -14,36 +14,78 @@
   </div>
 
   <div class="agent-labels-row">
-    <div class="agent-label-box">
+    <div class="agent-label-box" data-step="1">
       <div class="arrow-down">&#8595;</div>
       <div class="agent-square agent-square-a">Player 1</div>
     </div>
-    <div class="agent-label-box">
+    <div class="agent-label-box" data-step="1">
       <div class="arrow-down">&#8595;</div>
       <div class="agent-square agent-square-b">Player 2</div>
     </div>
   </div>
 
   <div class="dialogue-area">
-    <div class="agent-message agent-a">
+    <div class="agent-message agent-a" data-step="2">
       CLUE: Something that is usual or expected.
     </div>
 
-    <div class="agent-message agent-b">
-      GUESS: Norm
+    <div class="agent-message agent-b" data-step="3">
+      GUESS: norm
     </div>
 
-    <div class="agent-message agent-a">
+    <div class="agent-message agent-a" data-step="4">
       CLUE: Not fancy or special.
     </div>
 
-    <div class="agent-message agent-b">
-      GUESS: Ordinary
+    <div class="agent-message agent-b" data-step="5">
+      GUESS: ordinary
     </div>
 
-    <div class="task-result">
+    <div class="task-result" data-step="6">
       <div class="checkmark">&#10003;</div>
-      <div class="task-success">Task Success</div>
+      <div class="task-success-text">
+        <div class="task-success">Task Success</div>
+        <div class="task-guesses">(2 Guesses)</div>
+      </div>
     </div>
   </div>
 </div>
+
+<script>
+  function runTabooAnimation() {
+    const allElements = document.querySelectorAll('[data-step]');
+    const delayBetweenSteps = 2500;
+    const taskSuccessDelay = 1000;
+    const pauseBeforeRestart = 4000;
+
+    allElements.forEach(el => el.classList.remove('visible'));
+
+    const stepGroups = {};
+    allElements.forEach(el => {
+      const step = el.getAttribute('data-step');
+      if (!stepGroups[step]) stepGroups[step] = [];
+      stepGroups[step].push(el);
+    });
+
+    const stepNumbers = Object.keys(stepGroups).map(Number).sort((a, b) => a - b);
+    const lastStep = stepNumbers[stepNumbers.length - 1];
+
+    let currentTime = 0;
+    stepNumbers.forEach((stepNum, index) => {
+      setTimeout(() => {
+        stepGroups[stepNum].forEach(el => el.classList.add('visible'));
+      }, currentTime);
+
+      if (stepNum === lastStep - 1) {
+        currentTime += taskSuccessDelay;
+      } else {
+        currentTime += delayBetweenSteps;
+      }
+    });
+
+    const totalTime = currentTime + pauseBeforeRestart;
+    setTimeout(runTabooAnimation, totalTime);
+  }
+
+  document.addEventListener('DOMContentLoaded', runTabooAnimation);
+</script>
