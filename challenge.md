@@ -32,7 +32,7 @@ There are no limitations regarding the type of data that is allowed for training
 
 Use of the Playpen is encouraged, but not required. Entries to the competition can be (but do not have to be) pure fine-tunes of the base model; agentive systems that wrap the model in additional code (e.g., for introspection or self-regulation) are also welcome.
 
-Prizes are offered to the best-performing models on the provided evaluation pipeline.
+<!-- Prizes are offered to the best-performing models on the provided evaluation pipeline. -->
 
 ## Contacts
 
