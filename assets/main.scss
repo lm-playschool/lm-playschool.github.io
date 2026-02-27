@@ -20,13 +20,23 @@ blockquote{
 
 .nav-color{
   background-color: rgb(219, 16, 140) !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+.nav-color .navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-color .nav-link {
+  font-size: 1.1rem;
 }
 
 .header-home{
-  padding-top:65px;
+  padding-top: 30px;
   text-align: center;
-  margin-top:50px;
-  margin-bottom:50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 .p-footer{
   margin-top: 1rem;
