@@ -18,7 +18,7 @@ The focus of the competition are pre-trained (and instruction-tuned) models whic
 
 ## What we Provide
 
-The challenge organisers provide a setup (the Playpen) for conducting such structured interactions --- language games, or "Sprachspiel", in Wittgenstein's terminology---, which offers as learning signal both linguistic feedback from a teacher (clarification requests, corrections) as well as feedback from the (interaction) environment (task success or failure), and which provides some control over the training process to the learner. (This will be based on the [clembench](https://github.com/clp-research/clembench) environment, with some modifications that will be released soon.)
+The challenge organisers provide a setup (the Playpen) for conducting such structured interactions --- language games, or "Sprachspiel", in Wittgenstein's terminology---, which offers as learning signal both linguistic feedback from a teacher (clarification requests, corrections) as well as feedback from the (interaction) environment (task success or failure), and which provides some control over the training process to the learner. Based on the [clembench](https://github.com/clp-research/clembench) environment (with some modifications that will be released soon), PlayPen offers games like Taboo:
 
 {%- include taboo-sample.html -%}
 
