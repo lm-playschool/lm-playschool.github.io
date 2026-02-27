@@ -12,8 +12,9 @@ layout: timeline
 
 <p><span style="color: #DB108C; font-weight: bold;">Early August 2026:</span> Direct submission reviews due, ARR commitment deadline</p>
 
-<p><span style="color: #DB108C; font-weight: bold;">Mid August 2026:</span> Paper decisions released<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Centralised evaluation of top submissions</p>
+<p><span style="color: #DB108C; font-weight: bold;">Mid August 2026:</span> Paper decisions released</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Centralised evaluation of top submissions</p>
 
 <p><span style="color: #DB108C; font-weight: bold;">Early September 2026:</span> Camera ready due</p>
 
