@@ -2,8 +2,6 @@
 layout: timeline
 ---
 
-<h1 style="color: #DB108C;">Tentative Timeline</h1>
-
 <p><span style="color: #DB108C; font-weight: bold;">Late March 2026:</span> Starter pack released</p>
 
 <p><span style="color: #DB108C; font-weight: bold;">May 25 2026:</span> ARR paper submission deadline (challenge track and non-challenge track)</p>
