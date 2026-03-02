@@ -8,6 +8,10 @@
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
 @import "bootstrap_customization";
 
+body {
+  font-family: 'Georgia', 'Book Antiqua', Palatino, serif;
+}
+
 blockquote{
   font-weight: 500;
   background-color: #db108c14;
@@ -60,7 +64,9 @@ blockquote{
 }
 
 .ps-letter {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: 3px solid currentColor;
   width: 0.9em;
   height: 0.9em;
@@ -68,8 +74,6 @@ blockquote{
   margin: 0 1px;
   font-family: 'Georgia', 'Book Antiqua', Palatino, serif;
   font-weight: bold;
-  text-align: center;
-  line-height: 0.9em;
   vertical-align: middle;
 }
 
