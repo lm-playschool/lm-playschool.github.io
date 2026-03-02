@@ -14,8 +14,6 @@ layout: timeline
 
 <p><span style="color: #DB108C; font-weight: bold;">Mid August 2026:</span> Paper decisions released</p>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Centralised evaluation of top submissions</p>
-
 <p><span style="color: #DB108C; font-weight: bold;">Early September 2026:</span> Camera ready due</p>
 
 <p><span style="color: #DB108C; font-weight: bold;">Early October 2026:</span> Challenge winners announced</p>
