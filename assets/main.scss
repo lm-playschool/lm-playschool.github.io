@@ -59,6 +59,17 @@ blockquote{
   font-size:4em;
 }
 
+.ps-letter {
+  display: inline-block;
+  border: 3px solid currentColor;
+  padding: 2px 5px;
+  margin: 0 1px;
+  font-family: 'Georgia', 'Book Antiqua', Palatino, serif;
+  font-weight: bold;
+  vertical-align: middle;
+  line-height: 1.1;
+}
+
 .page-content{
   margin-top:2%
 }
