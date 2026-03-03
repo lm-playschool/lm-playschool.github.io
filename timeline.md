@@ -20,4 +20,6 @@ layout: timeline
 
 <p><span style="color: #DB108C; font-weight: bold;">Oct 24-29 2026:</span> Workshop at EMNLP in Budapest</p>
 
+### Join our Mailing List
+
 To stay ahead with updates and announcements, [join the LM Playschool mailing list](https://www.listserv.dfn.de/sympa/subscribe/llm-playschool-challenge).
