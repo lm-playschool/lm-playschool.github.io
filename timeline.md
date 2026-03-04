@@ -2,17 +2,24 @@
 layout: timeline
 ---
 
-## Important Dates
+<p><span style="color: #DB108C; font-weight: bold;">Late March 2026:</span> Starter pack released</p>
 
-<ul>
-<li><strong>ARR paper submission deadline</strong>: May 25, 2026</li>
-<li><strong>Challenge submission deadline</strong>: July 10, 2026 (TBC)</li>
-<li><strong>Direct paper submission deadline</strong> (challenge track and paper-only track): July 17, 2026 (TBC) </li>
-<li><strong>Notification of acceptance</strong>: August 20, 2026</li>
-<li><strong>Camera ready due</strong>: September 20, 2026</li>
-<li><strong>Workshop at EMNLP in Budapest</strong>: October 24-29, 2026 (Exact date TBD)</li>
-</ul>
+<p><span style="color: #DB108C; font-weight: bold;">May 25 2026:</span> ARR paper submission deadline (challenge track and paper-only track)</p>
 
-## Join our Mailing List
+<p><span style="color: #DB108C; font-weight: bold;">July 10 2026:</span> Challenge submission deadline</p>
+
+<p><span style="color: #DB108C; font-weight: bold;">July 17 2026:</span> Direct paper submission deadline (challenge track and paper-only track)</p>
+
+<p><span style="color: #DB108C; font-weight: bold;">Early August 2026:</span> Direct submission reviews due, ARR commitment deadline</p>
+
+<p><span style="color: #DB108C; font-weight: bold;">August 20 2026:</span> Notification of acceptance</p>
+
+<p><span style="color: #DB108C; font-weight: bold;">September 20 2026:</span> Camera ready due</p>
+
+<p><span style="color: #DB108C; font-weight: bold;">Early October 2026:</span> Challenge winners announced</p>
+
+<p><span style="color: #DB108C; font-weight: bold;">Oct 24-29 2026:</span> Workshop at EMNLP in Budapest</p>
+
+### Join our Mailing List
 
 To stay ahead with updates and announcements, [join the LM Playschool mailing list](https://www.listserv.dfn.de/sympa/subscribe/llm-playschool-challenge).
