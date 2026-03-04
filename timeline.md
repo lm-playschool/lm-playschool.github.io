@@ -2,7 +2,7 @@
 layout: timeline
 ---
 
-## Important Dates</strong>
+## Important Dates
 
 <ul>
 <li><strong>ARR paper submission deadline</strong>: May 25, 2026</li>
