@@ -2,7 +2,7 @@
 layout: timeline
 ---
 
-<strong> Important Dates</strong>
+## Important Dates</strong>
 
 <ul>
 <li><strong>ARR paper submission deadline</strong>: May 25, 2026</li>
@@ -13,8 +13,6 @@ layout: timeline
 <li><strong>Workshop at EMNLP in Budapest</strong>: October 24-29, 2026 (Exact date TBD)</li>
 </ul>
 
-<div style="height: 20px;"></div>
-
-### Join our Mailing List
+## Join our Mailing List
 
 To stay ahead with updates and announcements, [join the LM Playschool mailing list](https://www.listserv.dfn.de/sympa/subscribe/llm-playschool-challenge).
