@@ -9,13 +9,71 @@ layout: default
       </header>
         <div class="container page-content">
   <section>
-    {{ content }}
+
+      <h1>A Playschool for LLMs</h1>
+
+      <p>Despite the great advancements accomplished by the community in both training and post-training methodologies, at the moment models are still lacking a wide range of key collaborative interactional competences that human language users possess, even when provided with much larger amounts of data.</p>
+
+      <p>With the goal of overcoming such limitations of current training regimes, the <strong>LM Playschool Challenge</strong> targets significant advances in the efficient development of collaborative AI systems and promotes research on training regimes that are best suited for creating agentic conversational language models (ACLMs).</p>
+
+      <p>The <strong>LM Playschool Challenge</strong> therefore poses the following questions:</p>
+      <ul>
+        <li>How can we efficiently improve pre-trained LMs towards modelling a collaborative language understander and user, given a fixed token post-training budget?
+          <ul>
+            <li>More specifically, what role can structured interaction with another agent play in the training process?</li>
+          </ul>
+        </li>
+      </ul>
+
+      <p>Why a <strong>Playschool</strong>?<br>
+      The focus of the competition are pre-trained (and instruction-tuned) models which, metaphorically are still children when compared to humans but are not newborn babies anymore. Similarly to them, they are therefore ready to join a place (the <a href="https://www.collinsdictionary.com/dictionary/english/playschool"><strong>Playschool</strong></a>), where they can engage in structured, interactive activities with others and potentially strengthening their collaborative and general language use capabilities.</p>
+
+      <h2>About the Challenge</h2>
+
+      <p>The LM Playschool Challenge investigates how pre-trained language models can be efficiently post-trained to acquire collaborative interactional competences through structured dialogue. Participating teams will develop training regimes that improve a model's ability to generalise to unseen goal-oriented dialogue games, while preserving performance on standard NLP benchmarks and cognitive tests.</p>
+
+      <p><strong>Central research question:</strong> Given a fixed token post-training budget, how can we best improve a pre-trained LM's capacity as a collaborative language user — and what role does structured agent interaction play in that process?</p>
+
+      <h2>Provided Resources (Starter Pack)</h2>
+
+      <p>A starter pack will be released in <strong>late March 2026</strong> containing everything needed to begin development:</p>
+
+      <table>
+        <thead>
+          <tr><th>Resource</th><th>Description</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Training data</td><td>Existing dialogue transcripts (suitable for SFT-style training) and game instances (suitable for online RL and related approaches)</td></tr>
+          <tr><td>Evaluation data</td><td>Held-out game instances not included in the training set, plus standard static benchmarks</td></tr>
+          <tr><td>Base models</td><td>A tentative list of latest models will be provided</td></tr>
+          <tr><td>Sample code</td><td>Jupyter notebooks with reference training and evaluation scripts</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Submission Requirements</h2>
+
+      <h3>1. System Submission</h3>
+
+      <p>Each team submits a trained model for evaluation. The following are required:</p>
+
+      <p><strong>Model artefact</strong>: Provide a publicly accessible <strong>Hugging Face model URL</strong> containing the post-trained model with <strong>full merged weights</strong>.</p>
+
+      <p><strong>Inference compatibility</strong>: If the submitted model is not supported by the provided libraries, teams must additionally provide:</p>
+      <ul>
+        <li><strong>Dockerized setup</strong> that allows to run the trained model, e.g. expose an <strong>OpenAI-Compatible API</strong> endpoint</li>
+      </ul>
+
+      <p><strong>Documentation</strong>: Submit a <strong>model training card</strong> that covers: training methodology, data usage breakdown, hyperparameters, compute budget, and any design decisions relevant to reproducibility.</p>
+
+      <br>
+      <div class="cta-section" style="margin-top: 3rem; padding: 2rem; background-color: #f5f5f5; border-left: 4px solid #0066cc;">
+        <h3>Subscribe to the <a href="https://www.listserv.dfn.de/sympa/subscribe/llm-playschool-challenge">LM Playschool mailing list</a> to receive all updates and announcements.</h3>
+      </div>
+
   </section>
   </div>
     </div>
 
 </div>
-
-
 
 </article>
