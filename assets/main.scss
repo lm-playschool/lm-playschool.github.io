@@ -109,6 +109,23 @@ th {
   font-weight: 700;
 }
 
+th:first-child, td:first-child {
+  white-space: nowrap;
+}
+
+.cta-mailing-list {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #f5f5f5;
+  border-left: 4px solid #db108c;
+  font-size: 0.95rem;
+}
+
+.cta-mailing-list h4 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
 // Grid
 
 .grid-container {

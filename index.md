@@ -6,6 +6,3 @@ The LM Playschool Workshop aims to bring together researchers interested in lang
 The workshop will host a shared task, the LM Playschool Challenge. The shared task focuses on training collaborative, goal-oriented language agents through language interaction data. 
 Submitted systems will be evaluated for their ability to generalise to unseen "dialogue games", i.e., goal-oriented tasks governed by multi-turn language interaction, as well as on traditional single-turn NLP benchmarks and cognitive tests. More details [here](https://lm-playschool.github.io/challenge).
 
-## Join our Mailing List
-
-Subscribe for the latest updates and announcements [here](https://www.listserv.dfn.de/sympa/subscribe/llm-playschool-challenge).
