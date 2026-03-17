@@ -1,3 +1,4 @@
 ---
-layout: tba
+layout: page
+title: TBA (Stay Tuned!)
 ---

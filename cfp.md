@@ -1,5 +1,7 @@
 ---
-layout: cfp
+layout: page
+title: Call for Papers
+show_mailing_list: true
 ---
 
 <p class="lead">

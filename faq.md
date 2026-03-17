@@ -1,4 +1,5 @@
 ---
-layout: faq
+layout: page
+title: Frequently Asked Questions
 ---
 # Coming soon..

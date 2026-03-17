@@ -1,5 +1,6 @@
 ---
-layout: get-started
+layout: page
+title: Get Started
 ---
 # Useful Resources
 

@@ -1,5 +1,8 @@
 ---
-layout: challenge
+layout: page
+title: Challenge
+playschool_title: true
+show_mailing_list: true
 ---
 
 ## A Playschool for LLMs

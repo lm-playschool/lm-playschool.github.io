@@ -1,5 +1,7 @@
 ---
-layout: timeline
+layout: page
+title: Tentative Timeline
+show_mailing_list: true
 ---
 
 <p><span style="color: #DB108C; font-weight: bold;">Late March 2026:</span> Starter pack released</p>
@@ -19,4 +21,3 @@ layout: timeline
 <p><span style="color: #DB108C; font-weight: bold;">Early October 2026:</span> Challenge winners announced</p>
 
 <p><span style="color: #DB108C; font-weight: bold;">Oct 24-29 2026:</span> Workshop at EMNLP in Budapest</p>
-
