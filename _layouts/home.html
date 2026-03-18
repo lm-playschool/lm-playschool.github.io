@@ -8,19 +8,6 @@ layout: default
       <h4 style="margin-top: 0.5em">{{ site.subtitle | escape }}</h4>
     </header>
   </div>
-
-  <div class="container page-content">
-    <div class="news-box">
-      <h1>Latest News</h1>
-      <div class="news-list">
-        <ul>
-          {%- assign news_items = site.news | sort: "date" | reverse -%}
-          {%- for item in news_items -%}
-          <li><div class="news-item">{{ item.content | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div></li>
-          {%- endfor -%}
-        </ul>
-      </div>
-    </div>
   <section>
     {{ content }}
   </section>
