@@ -1,6 +1,7 @@
 ---
 layout: home
 permalink: /
+title: The LM Playschool Workshop
 ---
 # A Playschool for LLMs
 
