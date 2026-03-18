@@ -33,6 +33,15 @@ cfp_url: "https://lm-playschool.github.io/cfp"
 
 repository: "playschool-star/lm-play-school"
 
+collections_dir: _content
+
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+  news:
+    output: false
+
 # Build settings
 plugins:
   - jekyll-feed

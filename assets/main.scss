@@ -276,6 +276,7 @@ th:first-child, td:first-child {
   background-color: #a82575;
 }
 
+.news-item a,
 .news-paper-link {
   display: inline-block;
   padding: 1px 10px;
@@ -288,6 +289,7 @@ th:first-child, td:first-child {
   transition: background-color 0.3s ease;
 }
 
+.news-item a:hover,
 .news-paper-link:hover {
   background-color: #a82575;
   color: #fff;

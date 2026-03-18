@@ -14,8 +14,10 @@ layout: default
       <h1>Latest News</h1>
       <div class="news-list">
         <ul>
-          <li><div class="news-item">Our <a class="news-paper-link" href="https://aclanthology.org/2025.emnlp-main.1517/">paper</a> describing the challenge's environment was published and presented at EMNLP 2025.</div></li>
-          <li><div class="news-item">Our <a class="news-paper-link" href="https://aclanthology.org/2025.findings-emnlp.1092/">paper</a> "Triangulating LLM Progress through Benchmarks, Games, and Cognitive Tests" was published on Findings of ACL and presented at EMNLP 2025.</div></li>
+          {%- assign news_items = site.news | sort: "date" | reverse -%}
+          {%- for item in news_items -%}
+          <li><div class="news-item">{{ item.content | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div></li>
+          {%- endfor -%}
         </ul>
       </div>
     </div>
