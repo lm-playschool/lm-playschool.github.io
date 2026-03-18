@@ -13,6 +13,10 @@ body {
   font-size: 1.1rem;
 }
 
+a{
+  color: rgb(226, 65, 164);
+}
+
 blockquote{
   font-weight: 500;
   background-color: rgba(219, 16, 140, 0.08);
@@ -44,7 +48,9 @@ blockquote{
   margin-bottom: 30px;
 }
 .p-footer{
-  margin-top: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom:0.5rem;
+  font-size: 0.7rem;
 }
 
 .footer-container{
