@@ -9,6 +9,11 @@ show_mailing_list: true
 
 LLMs are increasingly used as agents that engage in multi-step interactions, yet they are trained either on purely observational data (text corpora) or on single stimulus-response pairs (instructions and replies). Could learning in multi-step conversational interaction (in what we call "dialogue games") improve their agentic capabilities? The LM-Playschool-Challenge aims at finding out.
 
+<details>
+<summary>Dialogue games?</summary>
+If you want to get an idea what kind of conversational games we're talking about, head over to the [clembench transcript browser](https://clembench.github.io/transcript-browser.html). There you can select a game, a model that has played it, an experiment (a set of problems within the game), and finally an instance (an actual problem). This will bring up the transcript of the two interleaved interactions, between player A and the Game Master (the facilitator of the game), and the Game Master and player B, that make an episode of a conversational game. Click around to explore other games and other models. (For example, jump between models when you have selected an episode, to see how they may differ in their game playing abilities.) As described below, for your learning experiments, you can use these transcripts, or you can directly use the framework that was used to collect these transcripts. (Or you can build something yourself that creates similar kinds of synthetic interactions.)
+</details>
+
 
 ## How does this work?
 
