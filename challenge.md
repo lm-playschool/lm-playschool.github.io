@@ -27,15 +27,15 @@ We do, however, provide a set of recommendations: We anticipate (and encourage) 
 
 **First step: Come up with a name for your group.** Very important. This will identify your team on the intermediate and final scoreboards, so be creative! (The Powerful Piagets? LanguageSuperModelsRock? All-play-and-no-work? The Bielefeld Beagles? Knock yourself out.)
 
-**Second step: Register your interest.** Use *this form* to register your interest in the shared task. This doesn't commit you to anything, but will allow us to gauge interest, and it will allow you to submit intermediate updates (see below). *Deadline for registering to be set.*
+**Second step: Register your interest.** Use *this form* to register your interest in the shared task. This doesn't commit you to anything, but will allow us to gauge interest, and it will allow you to submit intermediate updates (see below). (Please register by April 30th.)
 
 **Third step: Install the eval pipeline.** Contributions will be evaluated in a common framework. To make sure that this works seamlessly, we ask participants that they perform intermediate evaluations themselves, using a public version of the evaluation framework. This is available at <https://github.com/lm-playpen/playpen>. Follow the instructions under "set up the playpen workspace" and "evaluate a model", and make sure that you can perform the evaluation with your model.
 
 **Fourth step: Innovate!** Now do something that makes the numbers go up. For inspiration, have a look at the examples on <https://github.com/lm-playpen/playpen>. Feel free to build on these (and, transitively, on the clembench dialogue games). Or come up with your own framework for synthesising interaction data and interactions. If you think it falls under "learning in interaction", it fits.
 
-**Fifth step: Check in.** From DATE on, you can use *this form* to submit your current best results (as calculated by the eval pipeline). We will update a shared list, so you can see where you stand (relative to others who work with the same base model, or in terms of improvement over the base model that you have achieved). 
+**Fifth step: Check in.** From May 1st on, you can use *this form* (tba) to submit your current best results (as calculated by the eval pipeline). We will update a shared list, so you can see where you stand (relative to others who work with the same base model, or in terms of improvement over the base model that you have achieved). 
 
-**Sixth step: Submit your best attempt.** From DATE on (and until DATE), you can use *this form* to submit the model (or models) that you want to be considered for the final evaluation. For this, you will submit a link to a model uploaded to huggingface. Also provide a model training card that covers: training methodology, data usage breakdown, hyperparameters, compute budget, and any design decisions relevant to reproducibility.
+**Sixth step: Submit your best attempt.** From June 22nd on (and until July 5th), you can use *this form* (tba) to submit the model (or models) that you want to be considered for the final evaluation. For this, you will submit a link to a model uploaded to huggingface. Also provide a model training card that covers: training methodology, data usage breakdown, hyperparameters, compute budget, and any design decisions relevant to reproducibility.
 
 We will take this model and run it on the held out evaluation pipeline, which is similar, but not identical to the one you had access to during the development phase.
 
@@ -50,6 +50,13 @@ We will take this model and run it on the held out evaluation pipeline, which is
 Fame and fortune! Or (as there are no cash prizes to be won) at least fame! Insofar as getting a spot at an EMNLP workshop gives you that. 
 
 
-## An unsorted, unordered and unverified list of ideas to try out.
+## How can I reach you?
+
+Use the issue tracker at <https://github.com/lm-playpen/playpen/issues> to post questions about the shared task specifically (like problems evaluating your model, questions about what exactly to submit, etc.) and issues with the playpen example code specifically. (Please make sure that you have a look at the closed issues before posting a new one; maybe your problem has already been addressed.)
+
+
+## What can I do?
+
+Here's an unsorted, unordered and unverified list of ideas to try out:
 
 Implement more valuable in-game feedback signals ++ Implement a "caregiver" agent that can suggest better moves ++ Try out multi-turn RL approaches like ArCHer ++ tba
