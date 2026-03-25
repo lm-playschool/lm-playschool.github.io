@@ -5,51 +5,63 @@ playschool_title: true
 show_mailing_list: true
 ---
 
-## A Playschool for LLMs
+## What is this all about?
 
-Despite the great advancements accomplished by the community in both training and post-training methodologies, at the moment models are still lacking a wide range of key collaborative interactional competences that human language users possess, even when provided with much larger amounts of data.
+LLMs are increasingly used as agents that engage in multi-step interactions, yet they are trained either on purely observational data (text corpora) or on single stimulus-response pairs (instructions and replies). Could learning in multi-step conversational interaction (in what we call "dialogue games") improve their agentic capabilities? The LM-Playschool-Challenge aims at finding out.
 
-With the goal of overcoming such limitations of current training regimes, the **LM Playschool Challenge** targets significant advances in the efficient development of collaborative AI systems and promotes research on training regimes that are best suited for creating agentic conversational language models (ACLMs).
+<details>
+<summary>Dialogue games?</summary>
+To get a sense of what kind of conversational games we're talking about, you can explore the [clembench transcript browser](https://clembench.github.io/transcript-browser.html). There you can select a game, a model that has played it, an experiment (a set of problems within the game), and finally an instance (an actual problem). This will display the transcript of the two interleaved interactions — between player A and the Game Master (the facilitator of the game), and between the Game Master and player B — that make up an episode of a conversational game. Click around to explore other games and other models. For example, you can switch between models for the same instance to see how they may differ in their game playing abilities. For your experiments, you may either use these transcripts directly, work with the underlying framework used to generate them, or develop your own setup to produce similar synthetic interactions.
+</details>
 
-The **LM Playschool Challenge** therefore poses the following questions:
-* How can we efficiently improve pre-trained LMs towards modelling a collaborative language understander and user?
-  * More specifically, what role can structured interaction with another agent play in the training process?
 
-Why a **Playschool**?<br>
-The focus of the competition are pre-trained (and instruction-tuned) models which, metaphorically are still children when compared to humans but are not newborn babies anymore. Similarly to them, they are therefore ready to join a place (the [**Playschool**](https://www.collinsdictionary.com/dictionary/english/playschool)), where they can engage in structured, interactive activities with others and potentially strengthening their collaborative and general language use capabilities.
+## How does this work?
 
-<br>
+For this first edition of the challenge, we impose very few constraints on participants. You are free to choose any base model you want as starting point, and you can do whatever you want to it — the point where we all come together is in how the final model will be evaluated. All submissions will be evaluated on an unseen test set of dialogue games drawn from a private version of the clembench framework, and improvement is measured relative to the base model.
 
-## About the Challenge
+We do, however, provide a set of recommendations. We anticipate (and encourage) most participants to work with one of Qwen3.5-0.8B, -2B, -4B, -9B, or -27B — a broad range of model sizes which ensures that you can contribute even with modest computational resources. In addition, since this is the declared main interest of the shared task and the workshop, we strongly encourage the use of interaction data to improve models. To suppor this, we provide participants with the playpen environment, which is related but not identical to the final testing environment, and which includes example games, example learning scripts, and a development evaluation setup. (See below.)
 
-The LM Playschool Challenge investigates how pre-trained language models can be efficiently post-trained to acquire collaborative interactional competences through structured dialogue. Participating teams will develop training regimes that improve a model's ability to generalise to unseen goal-oriented dialogue games, while preserving performance on standard NLP benchmarks and cognitive tests.
+*Table with playpen eval scores of a selection of potential base models (such as the Qwens, but also good old Llama3.1-8B) to be added here.*
 
-**Central research question:** How can we best improve a pre-trained LM's capacity as a collaborative language user — and what role does structured agent interaction play in that process?
+## How do I take part?
 
-<br>
+**Step 1: Come up with a name for your team.** Very important. This will identify your team on the intermediate and final scoreboards, so be creative! (The Powerful Piagets? LanguageSuperModelsRock? All-play-and-no-work? The Bielefeld Beagles? Knock yourself out.)
 
-## Provided Resources (Starter Pack)
+**Step 2: Register your interest.** Use *this form* to register your interest in the shared task. This doesn't commit you to anything, but will allow us to gauge interest, and it will allow you to submit intermediate updates (see below). (Please register by April 30th.)
 
-A starter pack will be released in **late March 2026** containing everything needed to begin development:
+**Step 3: Install the eval pipeline.** Contributions will be evaluated in a common framework. To make sure that this works seamlessly, we ask participants that they perform intermediate evaluations themselves, using a public version of the evaluation framework. This is available at <https://github.com/lm-playpen/playpen>. Follow the instructions under "Set up the playpen workspace" and "Evaluate a model", and make sure that you can perform the evaluation with your model.
 
-| Resource | Description |
-|----------|-------------|
-| Training data | Existing dialogue transcripts (suitable for SFT-style training) and game instances (suitable for online RL and related approaches) |
-| Evaluation data | Held-out game instances not included in the training set, plus standard static benchmarks |
-| Base models | A tentative list of latest models will be provided |
-| Sample code | Jupyter notebooks with reference training and evaluation scripts |
+**Step 4: Innovate!** Now do something that makes the numbers go up. For inspiration, have a look at the examples on <https://github.com/lm-playpen/playpen>. Feel free to build on these, and on the clembench dialogue games, or come up with your own framework for synthesising interaction data and interactions. If you think it falls under "learning in interaction", it fits.
 
-<br>
+**Step 5: Check in.** From May 1st on, you can use *this form* (tba) to submit your current best results (as calculated by the eval pipeline). We will update a shared list, so you can see where you stand (relative to others who work with the same base model, or in terms of improvement over the base model that you have achieved). 
 
-## Submission Requirements
+**Step 6: Submit your best attempt.** From June 22nd on (and until July 5th), you can use *this form* (tba) to submit the model (or models) that you want to be considered for the final evaluation. For this, you will submit a link to a model uploaded to huggingface. Also provide a model training card that covers: training methodology, data usage breakdown, hyperparameters, compute budget, and any design decisions relevant to reproducibility.
 
-### 1. System Submission
+We will take this model and run it on the private evaluation pipeline, which is similar, but not identical to the one you had access to during the development phase.
 
-Each team submits a trained model for evaluation. The following are required:
+**Step 7: Write up what you did.** Write up all the great things you've learned during step 4, and submit to the workshop! (Also include the model training card here, and expand on the information provided therein.)
 
-**Model artefact**: Provide a publicly accessible **Hugging Face model URL** containing the post-trained model with **full merged weights**.
+**Step 8: Enjoy the workshop.** Come to Budapest on 24-29 October (exact EMNLP workshop dates TBD), and enjoy the presentations (and hopefully give one yourself). A selection committee will have selected three *best papers*, according to criteria such as *scientific impact of explored method*, *insight*, *innovation*, etc. Maybe your paper will be one of these?
 
-**Inference compatibility**: If the submitted model is not supported by the provided libraries, teams must additionally provide:
-- **Dockerized setup** that allows to run the trained model, e.g. expose an **OpenAI-Compatible API** endpoint
 
-**Documentation**: Submit a **model training card** that covers: training methodology, data usage breakdown, hyperparameters, compute budget, and any design decisions relevant to reproducibility.
+
+## What's in it for me?
+
+Fame and fortune! Or (as there are no cash prizes to be won) at least fame! Insofar as getting a spot at an EMNLP workshop gives you that. 
+
+
+## How can I reach you?
+
+Use the issue tracker at <https://github.com/lm-playpen/playpen/issues> to post questions about the shared task specifically (like problems evaluating your model, questions about what exactly to submit, etc.) and issues with the playpen example code specifically. (Please make sure that you have a look at the closed issues before posting a new one; maybe your problem has already been addressed.)
+
+
+## What can I do?
+
+Here's an unsorted, unstructured and unverified list of ideas to try out:
+- Incorporate intrinsic reward signals (e.g., curiosity, uncertainty reduction, task progress)
+- Fine-tune on trajectories filtered by success or high-quality interaction patterns
+- Learn a reward model from game transcripts and optimise against it
+- Distil stronger "teacher" models into smaller "student" (e.g., using a "caregiver" agent that provides corrective feedback during training)
+- Train models to explicitly track and update beliefs about the game state
+- Try out multi-turn RL approaches
+- Use planning-augmented decision making mechanisms (i.e., simulate future dialogue turns and environment states before acting)
