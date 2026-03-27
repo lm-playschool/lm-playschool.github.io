@@ -27,7 +27,7 @@ We do, however, provide a set of recommendations. We anticipate (and encourage) 
 
 **Step 1: Come up with a name for your team.** Very important. This will identify your team on the intermediate and final scoreboards, so be creative! (The Powerful Piagets? LanguageSuperModelsRock? All-play-and-no-work? The Bielefeld Beagles? Knock yourself out.)
 
-**Step 2: Register your interest.** Use *this form* to register your interest in the shared task. This doesn't commit you to anything, but will allow us to gauge interest, and it will allow you to submit intermediate updates (see below). (Please register by April 30th.)
+**Step 2: Register your interest.** Use [this form](https://forms.gle/cDx9wNUU57KJoTiy8) to register your interest in the shared task. This doesn't commit you to anything, but will allow us to gauge interest, and it will allow you to submit intermediate updates (see below). (Please register by April 30th.)
 
 **Step 3: Install the eval pipeline.** Contributions will be evaluated in a common framework. To make sure that this works seamlessly, we ask participants that they perform intermediate evaluations themselves, using a public version of the evaluation framework. This is available at <https://github.com/lm-playpen/playpen>. Follow the instructions under "Set up the playpen workspace" and "Evaluate a model", and make sure that you can perform the evaluation with your model.
 
@@ -47,7 +47,7 @@ We will take this model and run it on the private evaluation pipeline, which is 
 
 ## What's in it for me?
 
-Fame and fortune! Or (as there are no cash prizes to be won) at least fame! Insofar as getting a spot at an EMNLP workshop gives you that. 
+Fame and fortune! Or (as there are no cash prizes to be won, unfortunately) at least fame! Insofar as getting a spot at an EMNLP workshop gives you that. 
 
 
 ## How can I reach you?
