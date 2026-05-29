@@ -33,7 +33,7 @@ We do, however, provide a set of recommendations. We anticipate (and encourage) 
 
 **Step 4: Innovate!** Now do something that makes the numbers go up. For inspiration, have a look at the examples on <https://github.com/lm-playpen/playpen>. Feel free to build on these, and on the clembench dialogue games, or come up with your own framework for synthesising interaction data and interactions. If you think it falls under "learning in interaction", it fits.
 
-**Step 5: Check in.** From May 1st on, you can use *this form* (tba) to submit your current best results (as calculated by the eval pipeline). We will update a shared list, so you can see where you stand (relative to others who work with the same base model, or in terms of improvement over the base model that you have achieved). 
+**Step 5: Check in.** From May 1st on, you can use [this form](https://forms.gle/3aa8zjBG6PbvvYDv7) to submit your current best results (as calculated by the eval pipeline). We will update a [shared list](https://github.com/lm-playpen/playpen/blob/main/LEADERBOARD.md), so you can see where you stand (relative to others who work with the same base model, or in terms of improvement over the base model that you have achieved). 
 
 **Step 6: Submit your best attempt.** From June 22nd on (and until July 5th), you can use *this form* (tba) to submit the model (or models) that you want to be considered for the final evaluation. For this, you will submit a link to a model uploaded to huggingface. Also provide a model training card that covers: training methodology, data usage breakdown, hyperparameters, compute budget, and any design decisions relevant to reproducibility.
 
