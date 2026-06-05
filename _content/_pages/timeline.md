@@ -14,7 +14,7 @@ show_mailing_list: true
 
 <p><span style="color: #DB108C; font-weight: bold;">July 31 2026:</span> Direct submission reviews due</p>
 
-<p><span style="color: #DB108C; font-weight: bold;">2 August 2026:</span> Pre-reviewed ARR commitment deadline</p>
+<p><span style="color: #DB108C; font-weight: bold;">August 2 2026:</span> Pre-reviewed ARR commitment deadline</p>
 
 <p><span style="color: #DB108C; font-weight: bold;">August 8 2026:</span> Notification of acceptance</p>
 
@@ -22,4 +22,4 @@ show_mailing_list: true
 
 <p><span style="color: #DB108C; font-weight: bold;">Early October 2026:</span> Challenge winners announced</p>
 
-<p><span style="color: #DB108C; font-weight: bold;">Oct 24-29 2026:</span> Workshop at EMNLP in Budapest</p>
+<p><span style="color: #DB108C; font-weight: bold;">October 8 2026:</span> Workshop at EMNLP in Budapest</p>
