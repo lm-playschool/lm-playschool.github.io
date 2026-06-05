@@ -22,4 +22,4 @@ show_mailing_list: true
 
 <p><span style="color: #DB108C; font-weight: bold;">Early October 2026:</span> Challenge winners announced</p>
 
-<p><span style="color: #DB108C; font-weight: bold;">October 8 2026:</span> Workshop at EMNLP in Budapest</p>
+<p><span style="color: #DB108C; font-weight: bold;">October 28 2026:</span> Workshop at EMNLP in Budapest</p>
