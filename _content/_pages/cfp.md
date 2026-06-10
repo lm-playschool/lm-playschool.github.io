@@ -54,8 +54,11 @@ We welcome either long or short submissions for the following tracks:
 
 - **Starter pack release:** Late March 2026
 - **ARR paper submission deadline:** May 25, 2026
-- **Challenge submission deadline:** July 10, 2026
-- **Direct paper submission deadline** (challenge track and paper-only track): July 17, 2026
-- **Notification of acceptance:** August 20, 2026
-- **Camera ready due:** September 20, 2026
-- **Workshop at EMNLP'26:** October 24-29, 2026 (Budapest)
+- **Challenge submission deadline:** July 5, 2026
+- **Direct paper submission deadline** (challenge track and paper-only track): July 12, 2026
+- **Direct submissions review due:**: July 31, 2026
+- **Peer-reviewed ARR commitment deadline:** August 2, 2026
+- **Notification of acceptance:** August 8, 2026
+- **Camera ready due:** August 23, 2026
+- **Challenge winners announced:** Early October 2026
+- **Workshop at EMNLP'26:** October 28, 2026 (Budapest)
