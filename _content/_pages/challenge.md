@@ -35,7 +35,7 @@ We do, however, provide a set of recommendations. We anticipate (and encourage) 
 
 **Step 5: Check in.** From May 1st on, you can use [this form](https://forms.gle/3aa8zjBG6PbvvYDv7) to submit your current best results (as calculated by the eval pipeline). We will update a [shared list](https://github.com/lm-playpen/playpen/blob/main/LEADERBOARD.md), so you can see where you stand (relative to others who work with the same base model, or in terms of improvement over the base model that you have achieved). 
 
-**Step 6: Submit your best attempt.** From June 22nd on (and until July 5th), you can use *this form* (tba) to submit the model (or models) that you want to be considered for the final evaluation. For this, you will submit a link to a model uploaded to huggingface. Also provide a model training card that covers: training methodology, data usage breakdown, hyperparameters, compute budget, and any design decisions relevant to reproducibility.
+**Step 6: Submit your best attempt.** From June 22nd on (and until July 5th), you can use [this form](https://forms.gle/AubG6xN87aKcgHMk9) to submit the model (or models) that you want to be considered for the final evaluation. For this, you will submit a link to a model uploaded to huggingface. Also provide a model training card that covers: training methodology, data usage breakdown, hyperparameters, compute budget, and any design decisions relevant to reproducibility.
 
 We will take this model and run it on the private evaluation pipeline, which is similar, but not identical to the one you had access to during the development phase.
 
