@@ -56,8 +56,8 @@ We welcome either long or short submissions for the following tracks:
 - **ARR paper submission deadline:** May 25, 2026
 - **Challenge submission deadline:** July 5, 2026
 - **Direct paper submission deadline** (challenge track and paper-only track): July 12, 2026
-- **Direct submissions review due:**: July 31, 2026
-- **Peer-reviewed ARR commitment deadline:** August 2, 2026
+- **Direct submission reviews due:** July 31, 2026
+- **Pre-reviewed ARR commitment deadline:** August 2, 2026
 - **Notification of acceptance:** August 8, 2026
 - **Camera ready due:** August 23, 2026
 - **Challenge winners announced:** Early October 2026
