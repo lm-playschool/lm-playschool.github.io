@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tentative Timeline
+title: Timeline
 show_mailing_list: true
 ---
 
