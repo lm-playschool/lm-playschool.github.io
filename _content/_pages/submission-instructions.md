@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Submission Instructions
+title: Submission Guidelines
 show_mailing_list: true
 ---
 
