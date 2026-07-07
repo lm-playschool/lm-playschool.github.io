@@ -4,22 +4,24 @@ title: Submission Instructions
 show_mailing_list: true
 ---
 
-The LM Playschool Workshop accepts submissions to two tracks: the Paper-only Track and the LM Playschool Challenge Track. Submissions may be archival or non-archival, as specified below.
+The LM Playschool Workshop accepts submissions to two tracks: the Paper-only Track and the LM Playschool Challenge Track. Submissions may be archival or non-archival, as specified below. All submissions should follow the [ARR submission guidelines](https://aclrollingreview.org/cfp#paper-submission-information) and use the official [ACL style template](https://github.com/acl-org/acl-style-files).
 
 ## Paper-only Track
 
 The Paper-only Track welcomes original research, work in progress, position papers, and recently published papers on language models that learn, adapt, or improve through situated, conversational, collaborative, task-oriented, or multi-turn interaction.
 
-Submissions to this track should follow the [ARR submission guidelines](https://aclrollingreview.org/cfp#paper-submission-information) and use the official [ACL style template](https://github.com/acl-org/acl-style-files). Authors may submit either:
+Authors may submit either:
 
 - Short papers of up to 4 pages of content; or
 - Long papers of up to 8 pages of content.
 
 Paper-only submissions may be archival or non-archival. Recently published papers may only be submitted as non-archival submissions and should clearly indicate the venue and status of the original publication.
 
+➡️ Submit to the Paper-only Track on [OpenReview](https://openreview.net/group?id=EMNLP/2026/Workshop/LMP#tab-active-submissions).
+
 ## LM Playschool Challenge Track
 
-The Challenge Track is for technical reports describing systems submitted to the LM Playschool Challenge. Challenge papers should follow the [ARR submission guidelines](https://aclrollingreview.org/cfp#paper-submission-information) and use the official [ACL style template](https://github.com/acl-org/acl-style-files). Challenge papers must be at least 3 pages long and may use up to 5 pages of content, excluding references.
+The Challenge Track is for technical reports describing systems submitted to the LM Playschool Challenge. Challenge papers must be at least 3 pages long and may use up to 5 pages of content, excluding references.
 
 Challenge papers should provide enough detail for reviewers and future researchers to understand, evaluate, and reproduce the submitted system. In particular, they should include:
 
@@ -28,6 +30,8 @@ Challenge papers should provide enough detail for reviewers and future researche
 - A complete description of the training data, including its source, size, composition, filtering, preprocessing, synthetic data generation procedures (if any), and any use of dialogue-game transcripts, playpen data, external datasets, or model-generated data.
 - Training and validation results, including intermediate development results where available, final validation performance, and any relevant ablations or comparisons to the base model.
 - A description of the submitted model and reproducibility information, including the exact model checkpoint used for final evaluation, any deviations from the public evaluation setup, and links to code, model cards, training cards, configuration files, and model checkpoints where possible.
+
+➡️ Submit your technical report to the Challenge Track on [OpenReview](https://openreview.net/group?id=EMNLP/2026/Workshop/LMP_Challenge#tab-active-submissions).
 
 ## General Requirements
 
