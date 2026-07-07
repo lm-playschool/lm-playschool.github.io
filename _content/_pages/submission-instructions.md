@@ -25,11 +25,11 @@ The Challenge Track is for technical reports describing systems submitted to the
 
 Challenge papers should provide enough detail for reviewers and future researchers to understand, evaluate, and reproduce the submitted system. In particular, they should include:
 
-- A precise description of the methodology, including the learning algorithm, prompting or training procedure, model adaptation strategy, and any post-processing or inference-time mechanisms.
-- A full experimental setup, including the base model, model size, dataset sizes, train/dev splits, number of training steps or epochs, batch size, optimisation details, hyperparameters, random seeds, decoding parameters, and compute budget.
-- A complete description of the training data, including its source, size, composition, filtering, preprocessing, synthetic data generation procedures (if any), and any use of dialogue-game transcripts, playpen data, external datasets, or model-generated data.
-- Training and validation results, including intermediate development results where available, final validation performance, and any relevant ablations or comparisons to the base model.
-- A description of the submitted model and reproducibility information, including the exact model checkpoint used for final evaluation, any deviations from the public evaluation setup, and links to code, model cards, training cards, configuration files, and model checkpoints where possible.
+- A precise description of the **methodology**, including the learning algorithm, prompting or training procedure, model adaptation strategy, and any post-processing or inference-time mechanisms.
+- A full **experimental setup**, including the base model, model size, dataset sizes, train/dev splits, number of training steps or epochs, batch size, optimisation details, hyperparameters, random seeds, decoding parameters, and compute budget.
+- A complete description of the **training data**, including its source, size, composition, filtering, preprocessing, synthetic data generation procedures (if any), and any use of dialogue-game transcripts, playpen data, external datasets, or model-generated data.
+- **Training and validation results**, including intermediate development results where available, final validation performance, and any relevant ablations or comparisons to the base model.
+- A description of the **submitted model and reproducibility information**, including the exact model checkpoint used for final evaluation, any deviations from the public evaluation setup, and links to code, model cards, training cards, configuration files, and model checkpoints where possible.
 
 ➡️ The page to submit your technical report to the Challenge Track is on [OpenReview](https://openreview.net/group?id=EMNLP/2026/Workshop/LMP_Challenge#tab-active-submissions).
 
