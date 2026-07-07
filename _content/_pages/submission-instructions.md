@@ -17,7 +17,7 @@ Authors may submit either:
 
 Paper-only submissions may be archival or non-archival. Recently published papers may only be submitted as non-archival submissions and should clearly indicate the venue and status of the original publication.
 
-➡️ Submit to the Paper-only Track on [OpenReview](https://openreview.net/group?id=EMNLP/2026/Workshop/LMP#tab-active-submissions).
+➡️ The page to submit to the Paper-only Track is on [OpenReview](https://openreview.net/group?id=EMNLP/2026/Workshop/LMP#tab-active-submissions).
 
 ## LM Playschool Challenge Track
 
@@ -31,7 +31,7 @@ Challenge papers should provide enough detail for reviewers and future researche
 - Training and validation results, including intermediate development results where available, final validation performance, and any relevant ablations or comparisons to the base model.
 - A description of the submitted model and reproducibility information, including the exact model checkpoint used for final evaluation, any deviations from the public evaluation setup, and links to code, model cards, training cards, configuration files, and model checkpoints where possible.
 
-➡️ Submit your technical report to the Challenge Track on [OpenReview](https://openreview.net/group?id=EMNLP/2026/Workshop/LMP_Challenge#tab-active-submissions).
+➡️ The page to submit your technical report to the Challenge Track is on [OpenReview](https://openreview.net/group?id=EMNLP/2026/Workshop/LMP_Challenge#tab-active-submissions).
 
 ## General Requirements
 
