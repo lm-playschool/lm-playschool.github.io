@@ -10,7 +10,7 @@ show_mailing_list: true
 
 <p><span style="color: #DB108C; font-weight: bold;">July 5 2026:</span> Challenge submission deadline</p>
 
-<p><span style="color: #DB108C; font-weight: bold;">July 12 2026:</span> Direct paper submission deadline (challenge track and paper-only track)</p>
+<p><span style="color: #DB108C; font-weight: bold;">July 17 2026:</span> Direct paper submission deadline (challenge track and paper-only track)</p>
 
 <p><span style="color: #DB108C; font-weight: bold;">July 31 2026:</span> Direct submission reviews due</p>
 
