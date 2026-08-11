@@ -18,7 +18,7 @@ show_mailing_list: true
 
 <p><span style="color: #DB108C; font-weight: bold;">August 8 2026:</span> Notification of acceptance</p>
 
-<p><span style="color: #DB108C; font-weight: bold;">August 23 2026:</span> Camera ready due</p>
+<p><span style="color: #DB108C; font-weight: bold;">August 25 2026:</span> Camera ready due</p>
 
 <p><span style="color: #DB108C; font-weight: bold;">Early October 2026:</span> Challenge winners announced</p>
 
