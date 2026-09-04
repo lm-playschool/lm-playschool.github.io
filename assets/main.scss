@@ -487,10 +487,23 @@ th:first-child, td:first-child {
   }
 }
 
-@media (max-width: 1120px) {
-  .navbar-expand-lg {
-    flex-wrap: nowrap !important;
+@media (min-width: 1120px) {
+  .navbar-expand-custom {
+    flex-wrap: nowrap;
     justify-content: flex-start;
+
+    .navbar-nav {
+      flex-direction: row;
+    }
+
+    .navbar-collapse {
+      display: flex !important;
+      flex-basis: auto;
+    }
+
+    .navbar-toggler {
+      display: none;
+    }
   }
 }
 
