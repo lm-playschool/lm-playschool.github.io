@@ -493,6 +493,13 @@ th:first-child, td:first-child {
   }
 }
 
+@media (max-width: 1120px) {
+  .navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+}
+
 // Accepted papers list
 .papers-list {
   list-style: none;
