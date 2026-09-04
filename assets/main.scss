@@ -494,6 +494,11 @@ th:first-child, td:first-child {
 
     .navbar-nav {
       flex-direction: row;
+
+      .nav-link {
+        padding-right: var(--bs-navbar-nav-link-padding-x);
+        padding-left: var(--bs-navbar-nav-link-padding-x);
+      }
     }
 
     .navbar-collapse {
