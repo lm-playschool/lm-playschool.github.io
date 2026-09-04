@@ -483,7 +483,13 @@ th:first-child, td:first-child {
   .container-md,
   .container-lg,
   .container-xl {
-    max-width:1100px !important;
+    max-width:1120px !important;
+  }
+}
+
+@media (min-width: 1120px) {
+  .container, .container-sm, .container-md, .container-lg {
+    max-width: 1120px;
   }
 }
 
