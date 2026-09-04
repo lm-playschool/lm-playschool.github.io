@@ -477,7 +477,7 @@ th:first-child, td:first-child {
   color: #e53935;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1120px) {
   .container,
   .container-sm,
   .container-md,
@@ -487,15 +487,9 @@ th:first-child, td:first-child {
   }
 }
 
-@media (min-width: 1120px) {
-  .container, .container-sm, .container-md, .container-lg {
-    max-width: 1120px;
-  }
-}
-
 @media (max-width: 1120px) {
   .navbar-expand-lg {
-    flex-wrap: nowrap;
+    flex-wrap: nowrap !important;
     justify-content: flex-start;
   }
 }
