@@ -260,16 +260,25 @@ th:first-child, td:first-child {
     vertical-align: middle;
 }
 
+.speaker-grid-container .row {
+    justify-content: center;
+    gap: 30px;
+}
+
 .speaker-grid-container .speaker-grid-item {
-    width: 45%;
+    width: 40%;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .speaker-grid-item img {
     border-radius: 0 !important;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    width: 60%;
-    max-width: 220px;
+    width: 220px;
+    max-width: 100%;
     display: block;
     margin: 0 auto;
 }
