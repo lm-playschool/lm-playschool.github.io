@@ -242,6 +242,36 @@ th:first-child, td:first-child {
   color: #fffb00
 }
 
+// Workshop announcement
+
+.workshop-date-banner {
+    text-align: center;
+    font-weight: bold;
+}
+
+.emnlp-logo {
+    height: 50px;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.speaker-grid-item img {
+    border-radius: 0;
+}
+
+.schedule-tba {
+    text-align: center;
+    font-weight: bold;
+}
+
+.section-divider {
+    border: none;
+    border-bottom: 1px solid #000;
+    margin: 40px auto;
+    max-width: 900px;
+}
+
 // News box
 .news-box {
   border-left: 4px solid #db108c;
