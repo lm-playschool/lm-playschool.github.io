@@ -245,23 +245,32 @@ th:first-child, td:first-child {
 // Workshop announcement
 
 .workshop-date-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
     text-align: center;
     font-weight: bold;
 }
 
 .emnlp-logo {
-    height: 50px;
+    height: 1.4em;
     width: auto;
     vertical-align: middle;
-    margin-left: 10px;
 }
 
 .speaker-grid-item img {
-    border-radius: 0;
+    border-radius: 0 !important;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.michael-franke-photo {
+    object-position: left center;
 }
 
 .schedule-tba {
-    text-align: center;
     font-weight: bold;
 }
 
