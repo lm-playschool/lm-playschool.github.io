@@ -1,0 +1,18 @@
+<table class="schedule-table">
+    <thead>
+        <tr>
+            <th>Start</th>
+            <th>End</th>
+            <th>Event</th>
+        </tr>
+    </thead>
+    <tbody>
+        {%- for slot in site.data.schedule %}
+        <tr>
+            <td>{{ slot.start }}</td>
+            <td>{{ slot.end }}</td>
+            <td>{{ slot.event | markdownify | remove: '<p>' | remove: '</p>' | strip }}</td>
+        </tr>
+        {%- endfor %}
+    </tbody>
+</table>

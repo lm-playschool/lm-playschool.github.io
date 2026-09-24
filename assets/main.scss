@@ -404,8 +404,21 @@ th:first-child, td:first-child {
     }
 }
 
-.schedule-tba {
-    font-weight: bold;
+.schedule-table {
+    max-width: 900px;
+    margin: 30px auto 40px auto;
+}
+
+.schedule-table td p {
+    margin: 0;
+}
+
+@media (max-width: 576px) {
+    .schedule-table th,
+    .schedule-table td {
+        padding: 8px;
+        font-size: 0.95rem;
+    }
 }
 
 .section-divider {
