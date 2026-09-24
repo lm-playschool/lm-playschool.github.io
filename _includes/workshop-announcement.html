@@ -6,31 +6,26 @@
 
     <h1>Invited Speakers</h1>
     <div class="grid-container speaker-grid-container">
+        {%- for speaker in site.data.speakers %}
         <div class="row">
-            <div class="grid-item speaker-grid-item">
-                <img src="{{ "/assets/img/speakers/joyce_chai.jpg" | relative_url }}" alt="Joyce Chai">
-                <a href="https://web.eecs.umich.edu/~chaijy/">Joyce Chai</a>
-                <p>Professor<br><strong>University of Michigan</strong></p>
-            </div>
-            <div class="grid-item speaker-grid-item">
-                <img src="{{ "/assets/img/speakers/abdellah_fourtassi.png" | relative_url }}" alt="Abdellah Fourtassi">
-                <a href="https://afourtassi.github.io/">Abdellah Fourtassi</a>
-                <p>Associate Professor<br><strong>Aix-Marseille University</strong></p>
-            </div>
+            {% include speaker-card.html speaker=speaker %}
         </div>
-        <div class="row">
-            <div class="grid-item speaker-grid-item">
-                <img src="{{ "/assets/img/speakers/michael_c_frank.jpg" | relative_url }}" alt="Michael Frank">
-                <a href="https://psychology.stanford.edu/people/michael-frank">Michael Frank</a>
-                <p>Professor<br><strong>Stanford University</strong><br></p>
-            </div>
-            <div class="grid-item speaker-grid-item">
-                <img src="{{ "/assets/img/speakers/michael_franke.jpg" | relative_url }}" alt="Michael Franke" class="michael-franke-photo">
-                <a href="https://michael-franke.github.io/heimseite/">Michael Franke</a>
-                <p>Professor<br><strong>University of Tübingen</strong></p>
-            </div>
-        </div>
+        {%- endfor %}
     </div>
+    <script>
+        // On narrow screens the speaker details are collapsed behind a toggle button (see main.scss).
+        (function () {
+            var container = document.querySelector('.speaker-grid-container');
+            container.classList.add('js-ready');
+            container.querySelectorAll('.speaker-toggle').forEach(function (button) {
+                button.addEventListener('click', function () {
+                    var card = button.closest('.speaker-grid-item');
+                    var open = card.classList.toggle('open');
+                    button.setAttribute('aria-expanded', open);
+                });
+            });
+        })();
+    </script>
 
     <h1>Schedule</h1>
     <p class="schedule-tba">To be announced soon</p>

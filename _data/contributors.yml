@@ -1,0 +1,19 @@
+- name: "Maria Manina"
+  website: "https://www.linkedin.com/in/maria-manina-631102342/"
+  photo: "/assets/img/contributors/mmanina.jpg"
+
+- name: "Filippo Momentè"
+  website: "https://www.linkedin.com/in/filippo-moment%C3%A8-9a9200152/"
+  photo: "/assets/img/contributors/fmomente.jpg"
+
+- name: "Karl Osswald"
+  website: "https://ansovald.github.io/"
+  photo: "/assets/img/contributors/kosswald.jpg"
+
+- name: "Dimitrije Ristic"
+  website: "https://www.linkedin.com/in/dimitrije-ristic-ba8905184/"
+  photo: "/assets/img/contributors/dristic.jpg"
+
+- name: "Phillip Sadler"
+  website: "https://www.linkedin.com/in/philipp-sadler-73135895/?originalSubdomain=de"
+  photo: "/assets/img/contributors/psadler.jpeg"

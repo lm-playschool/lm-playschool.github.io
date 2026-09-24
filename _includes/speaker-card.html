@@ -1,0 +1,27 @@
+{%- assign details_id = "speaker-details-" | append: include.speaker.name | slugify -%}
+<div class="grid-item speaker-grid-item">
+    <div class="speaker-profile">
+        <img src="{{ include.speaker.photo | relative_url }}" alt="{{ include.speaker.name }}"{% if include.speaker.photo_class %} class="{{ include.speaker.photo_class }}"{% endif %}>
+        <a href="{{ include.speaker.website }}">{{ include.speaker.name }}</a>
+        <p>{{ include.speaker.position }}<br><strong>{{ include.speaker.affiliation }}</strong></p>
+    </div>
+    {%- if include.speaker.talk_title or include.speaker.abstract or include.speaker.bio %}
+    <button type="button" class="speaker-toggle" aria-expanded="false" aria-controls="{{ details_id }}">
+        About the talk
+    </button>
+    <div class="speaker-details" id="{{ details_id }}">
+        {%- if include.speaker.talk_title %}
+        <h4>Talk Title</h4>
+        <p>{{ include.speaker.talk_title }}</p>
+        {%- endif %}
+        {%- if include.speaker.abstract %}
+        <h4>Abstract</h4>
+        {{ include.speaker.abstract | markdownify }}
+        {%- endif %}
+        {%- if include.speaker.bio %}
+        <h4>About the Speaker</h4>
+        {{ include.speaker.bio | markdownify }}
+        {%- endif %}
+    </div>
+    {%- endif %}
+</div>

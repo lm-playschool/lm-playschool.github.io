@@ -1,0 +1,54 @@
+- name: "Raffaella Bernardi"
+  website: "https://www.unibz.it/en/faculties/engineering/academic-staff/person/2311-raffaella-bernardi"
+  photo: "/assets/img/organizers/rbernardi.jpeg"
+  affiliation: "Free University of Bozen-Bolzano"
+
+- name: "Raquel Fernández"
+  website: "https://staff.fnwi.uva.nl/r.fernandezrovira/"
+  photo: "/assets/img/organizers/rfernandez.png"
+  affiliation: "University of Amsterdam"
+
+- name: "Mario Giulianelli"
+  website: "https://glnmario.github.io/"
+  photo: "/assets/img/organizers/mgiulianelli.png"
+  affiliation: "University College London"
+
+- name: "Sherzod Hakimov"
+  website: "https://sherzod-hakimov.github.io/"
+  photo: "/assets/img/organizers/shakimov.jpg"
+  affiliation: "University of Potsdam"
+
+- name: "Alexander Koller"
+  website: "https://www.coli.uni-saarland.de/~koller/"
+  photo: "/assets/img/organizers/akoller.png"
+  affiliation: "Saarland University"
+
+- name: "Dieu-Thu Le"
+  website: "https://www.amazon.science/author/dieu-thu-le"
+  photo: "/assets/img/organizers/dtle.jpeg"
+  affiliation: "Amazon - AGI, Germany"
+
+- name: "Oliver Lemon"
+  website: "https://www.edinburgh-robotics.org/academics/oliver-lemon"
+  photo: "/assets/img/organizers/olemon.jpg"
+  affiliation: "Heriot-Watt University"
+
+- name: "Davide Mazzaccara"
+  website: "https://www.linkedin.com/in/davide-mazzaccara/"
+  photo: "/assets/img/organizers/dmazzaccara.jpg"
+  affiliation: "University of Trento"
+
+- name: "Sabrina McCallum"
+  website: "https://www.edinburgh-robotics.org/students/sabrina-mccallum"
+  photo: "/assets/img/organizers/smccallum.jpeg"
+  affiliation: "University of Edinburgh"
+
+- name: "David Schlangen"
+  website: "https://www.ling.uni-potsdam.de/~das/"
+  photo: "/assets/img/organizers/dschlangen.jpg"
+  affiliation: "University of Potsdam"
+
+- name: "Alessandro Suglia"
+  website: "https://www.edinburgh-robotics.org/academics/alessandro-suglia"
+  photo: "/assets/img/organizers/asuglia.jpeg"
+  affiliation: "University of Edinburgh"

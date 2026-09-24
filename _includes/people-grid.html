@@ -1,0 +1,25 @@
+{%- comment -%}
+  Renders a list of people (name, website, photo, optional affiliation) in rows of `per_row`.
+  Usage: {% include people-grid.html people=site.data.organizers per_row=4 %}
+{%- endcomment -%}
+<div class="grid-container">
+    {%- for person in include.people -%}
+    {%- assign column = forloop.index0 | modulo: include.per_row -%}
+    {%- if column == 0 -%}
+        {%- assign in_row = include.people.size | minus: forloop.index0 -%}
+        {%- if in_row > include.per_row -%}{%- assign in_row = include.per_row -%}{%- endif %}
+        <div class="row row-{{ in_row }}-items">
+    {%- endif %}
+            <div class="grid-item">
+                <img src="{{ person.photo | relative_url }}" alt="{{ person.name }}">
+                <a href="{{ person.website }}">{{ person.name }}</a>
+                {%- if person.affiliation %}
+                <p>{{ person.affiliation }}</p>
+                {%- endif %}
+            </div>
+    {%- assign next_column = column | plus: 1 -%}
+    {%- if next_column == include.per_row or forloop.last %}
+        </div>
+    {%- endif -%}
+    {%- endfor %}
+</div>
