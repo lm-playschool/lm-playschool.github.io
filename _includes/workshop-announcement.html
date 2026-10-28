@@ -28,7 +28,8 @@
     </script>
 
     <h1>Schedule</h1>
-    {% include schedule-table.html %}
+    {% comment %} The date and room are already in the banner above, so skip the table's venue heading here. {% endcomment %}
+    {% include schedule-table.html hide_venue=true %}
 
     <hr class="section-divider">
 </div>
