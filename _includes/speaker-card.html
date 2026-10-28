@@ -11,11 +11,9 @@
     </button>
     <div class="speaker-details" id="{{ details_id }}">
         {%- if include.speaker.talk_title %}
-        <h4>Talk Title</h4>
-        <p>{{ include.speaker.talk_title }}</p>
+        <h4>{{ include.speaker.talk_title }}</h4>
         {%- endif %}
         {%- if include.speaker.abstract %}
-        <h4>Abstract</h4>
         {{ include.speaker.abstract | markdownify }}
         {%- endif %}
         {%- if include.speaker.bio %}
